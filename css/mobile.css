@@ -1,0 +1,53 @@
+.bg-primary {
+    color: rgb(255, 73, 73)
+}
+
+.bg-dark {
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+}
+
+.bg-light {
+    background-color: blanchedalmond;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* HEADER */
+
+#header {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#header ul {
+    flex-direction: column;
+}
+
+/* head */
+
+#head h1 {
+    font-size: 2.5rem;
+}
+
+#head p {
+    font-size: 1.5rem;
+}
+/* Section */
+
+.content-left {
+    display: none;
+}
+
+.content-right {
+    width: 100%;
+}
+
+/* BOXES */
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}

@@ -1,0 +1,202 @@
+/* UTLITIES */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary {
+    color: rgb(255, 73, 73)
+}
+
+.bg-dark {
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+}
+
+.bg-light {
+    background-color: blanchedalmond;
+}
+
+.clr {
+    clear: both;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Header */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(40, 40, 40);
+    height: 9vh;
+}
+
+.logo {
+    color: aliceblue;
+}
+
+#header ul {
+    display: flex;
+    list-style: none;
+}
+
+#header ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+}
+
+#header ul li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color: crimson;
+    transition: all 0.6s;
+}
+
+#header ul li a:hover::after {
+    width: 100%;
+}
+
+#head {
+    height: 70vh;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+}
+
+.container {
+    text-align: center;
+    padding-top: 180px;
+    line-height: 2rem;
+    color: white;
+}
+
+.container h1 {
+    font-size: 4rem;
+}
+
+.container p {
+    padding-top: 20px;
+}
+
+.btn {
+    margin-top: 7px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: crimson;
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+/* SECTION */
+.content-left img {
+    height: 510px;
+    width: 50%;
+    float: left;
+}
+
+.content-right {
+    height: 510px;
+    float: right;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(40, 40, 40);
+    color: aliceblue;
+}
+
+.content-right h1 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+.content-right p {
+    line-height: 1.5rem;
+    padding: 20px 30px;
+}
+
+.btn-2 {
+    padding: 15px 15px;
+    font-weight: 3.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-2:hover {
+    background-color: crimson;
+    color: aliceblue;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+/* BOX */
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box-1 {
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    padding: 80px 20px;
+}
+
+.box-1 h1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.box-1 p {
+    line-height: 1.3rem;
+}
+
+.box-2 {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.box-2 h1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.box-2 p {
+    line-height: 1.3rem;
+}
+
+.box-3 {
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    padding: 80px 20px;
+}
+
+.box-3 h1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.box-3 p {
+    line-height: 1.3rem;
+}
+
+/* Foot */
+
+#foot {
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5rem;
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+}
